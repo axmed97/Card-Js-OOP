@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css'
+        integrity='sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=='
+        crossorigin='anonymous' />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css'
+        integrity='sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=='
+        crossorigin='anonymous' />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper ">
+        <div class="card">
+            <img src="image/Blond creates stripped-back bank card for financial services start-up Revolut.jpeg"
+                class="card-image" alt="">
+            <div class="card-info name">Axmed Axmedov</div>
+            <div class="card-info number">0000 0000 0000 0000</div>
+            <div class="card-info expiration">13/10</div>
+            <div class="card-info cvv">000</div>
+        </div>
+        <form class="card-form w-100">
+            <div class="card-input">
+                <div class="name-input">
+                    <input type="text" class="form-control card-name-input" placeholder="Enter Full Name">
+                    <small class="error name-error text-danger"></small>
+                </div>
+                <div class="number-input">
+                    <input type="text" class="form-control card-number-input" maxlength="19" placeholder="Enter Card Number">
+                    <small class="error number-error text-danger"></small>
+                </div>
+                <div class="expiration-date">
+                    <input type="text" class="form-control card-expiration-input" maxlength="5" placeholder="Enter Expiration Date">
+                    <small class="error expiration-error text-danger"></small>
+                </div>
+                <div class="cvv-input">
+                    <input type="text" class="form-control card-cvv-input" maxlength="" placeholder="Enter CVV Code">
+                    <small class="error cvv-error text-danger"></small>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
